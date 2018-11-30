@@ -2,3 +2,55 @@ telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 telegram.ext.updater - WARNING - Exiting immediately!
 telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 28, in get_planet
+    update.message.reply_text(date)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/utils/request.py", line 308, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'date' is not JSON serializable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
